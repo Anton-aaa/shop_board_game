@@ -19,9 +19,4 @@ urlpatterns = [
     path('', include(router.urls)),
     path('admin/', admin.site.urls),
     path('api-token-auth/', views.obtain_auth_token),
-    # path('goods/', include("myapp.goods.urls")),
-    # path('user/', include("myapp.profile.urls")),
-    # path('purchase/', include("myapp.purchase.urls")),
-    # path('return_goods/', include("myapp.return_goods.urls")),
-
 ]
